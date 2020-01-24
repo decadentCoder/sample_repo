@@ -1,0 +1,15 @@
+let title = document.getElementsByTagName("title");
+let headingsSize1 = document.querySelectorAll("h1");
+let paragraphs = document.querySelectorAll("p");
+    
+
+headingsSize1[0].innerText, headingsSize1[1].innerText, paragraphs[0].innerText, paragraphs[1].innerText = "";
+headingsSize1[1].nextElementSibling.innerText, paragraphs[1].nextElementSibling.innerText = "";
+title[0].innerText = "DOM Homework & Exercises" //само ова фактички се менува. Инаку сето ова вон функција, како посебен .јѕ работи!
+headingsSize1[0].innerText = "yeah, cool my..."
+headingsSize1[0].innerText += "[censored]"
+headingsSize1[1].innerText = "this website is going to be about..."
+headingsSize1[1].nextElementSibling.innerText = "...nothing!"
+paragraphs[0].innerText = "...if you say so!"
+paragraphs[1].innerText = "sorry, out of inspiration..."
+paragraphs[1].nextElementSibling.innerText = "and that is why..." 
