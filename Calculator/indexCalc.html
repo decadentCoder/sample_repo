@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+	<head>
+    <title> Calculator </title>
+    <link rel="stylesheet" type="text/css" href="styleCalc.css">
+    <meta charset="UTF-8">
+	</head>
+	<body>
+		<h2> Calculator </h2>
+		<table>
+			<thead>
+				<tr> 
+					<th id="printRes" style="background-color:rgb(207, 255, 191)" colspan="5">  </th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td> % </td>                                           <!--asign func or DELETE !!! -->
+					<td colspan=2> <button id="buttonReset"> RESET </button> </td>
+					<!-- matematickite (i drugi) simboli prezemeni od https://www.w3schools.com/charsets/ -->
+					<td> <button id="buttonDel"> &#11013 </button> </td> <!-- assign function?-->
+					<td> <button id="buttonOPdivide"> : </button> </td>
+				
+				</tr>
+				<tr>
+					<td> <button id="buttonOProot"> &#8730 </button> </td>
+					<th> <button id="buttonNr7">  7 </button> </th> 
+					<th> <button id="buttonNr8">   8  </button></th> 
+					<th> <button  id="buttonNr9"> 9 </button> </th>
+					<td> <button id="buttonOPmult"> x </button> </td>
+				</tr>
+				<tr>
+					<td> <button id="buttonOPsquare"> x² </button> </td>
+					<th> <button id="buttonNr4">  4 </button> </th> 
+					<th> <button id="buttonNr5">  5 </button> </th> 
+					<th> <button id="buttonNr6">  6 </button> </th> 
+					<td> <button id="buttonOPsubstract"> - </button> </td>
+				</tr>
+				<tr>
+					<td> <button id="buttonOPsquare3">  x³</button> </td>
+					<th> <button id="buttonNr1">  1 </button> </th> <!-- Corr: ONCLICK script!!!-->
+					<th> <button id="buttonNr2">  2 </button> </th> 
+					<th> <button id="buttonNr3">  3 </button> </th> 
+					<td> <button id="buttonOPadd"> + </button> </td>
+				</tr>
+				<tr>
+					<td> <button id="buttonTfraction"> 1/x </button> </td>
+					<td> <button id="buttonTpolarity"> +/- </button> </td> <!-- func!-->
+					<th> <button id="buttonNr0">  0 </button> </th> 
+					<td> <button id="buttonTdec"> . </button> </td> <!-- func!-->
+					<td> <button id="buttonResult"> = </button> </td>
+				</tr>
+			<tbody>
+		</table>
+
+        <script src="scriptCalc.js" type="text/javascript"></script>
+	</body>
+<html>
